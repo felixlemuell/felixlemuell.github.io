@@ -17,63 +17,42 @@
     <title>Nestlé: Good food, Good life | Nestlé Global</title>
 </head>
 <body>
-  <h1>Ini Form Contact Us</h1>
-<div>
-    <form action="/action_page.php">
-    <p>
-      <label for="fname">First Name: </label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    </p>
-    <p>
-      <label for="lname">Last Name: </label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    </p>
-    <p>
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email" placeholder="Input Your Email here">
-    </p>
-    <p>
-        <label for="uname">Username: </label>
-        <input type="text" id="uname" name="uname" placeholder="Input Your Username here">
-    </p>
-    <p>
-        <label for="pass">Password: </label>
-        <input type="password" id="pass" name="pass" placeholder="Input Your Password here">
-    </p>
-    <p>
-        <label for="gender">Gender: </label>
-        <input type="radio" id="men" name="gender" value="men">
-            <label for="men">Men</label>
-            <input type="radio" id="women" name="gender" value="women">
-            <label for="women">Women</label>
-    </p>
-    <p>
-        <label for="hobby">Hobby: </label>
-        <input type="checkbox" id="Study" name="hobby1" value="Study">
-            <label for="Study">Studying</label>
-            <input type="checkbox" id="Sports" name="hobby2" value="Sports">
-            <label for="Sports">Sports</label>
-            <input type="checkbox" id="Singing" name="hobby3" value="Singing">
-            <label for="Singing">Singing</label>
-            <input type="checkbox" id="Playing Music" name="hobby4" value="Playing Music">
-            <label for="Playing Music">Playing Music</label>
-    </p>
-    <p>
-      <label for="religion">Religion: </label>
-      <select id="religion" name="religion">
-        <option value="christian">Christian</option>
-        <option value="muslim">Muslim</option>
-        <option value="hindu">Hindu</option>
-        <option value="buddhist">Buddhist</option>
-        <option value="other">Other</option>
-      </select>
-    </p>
-    <p>
-        <label for="address">Address:</label>
-        <textarea id="address" name="address" rows="5" cols="30"></textarea>
-    </p>
-      <input type="submit" value="Submit">
-    </form>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="https://www.nestleusa.com/sites/g/files/pydnoa536/files/Nestle-Logo-Oak-Web.png" width="500" height="240">
+      </div>
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-6" type="text" placeholder="Search">
+        </form>
+    </div>
   </div>
+  <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand text-dark" href="#">Logo</a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Our Stories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Our Impact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Brands</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Innovation</a>
+      </li>      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Ask Nestlé</a>
+      </li>
+    </ul>
+  </nav>
+  
 </body>
 </html>
